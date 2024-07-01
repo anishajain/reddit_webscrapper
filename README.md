@@ -24,10 +24,8 @@ You'll also need `pip` for installing Python packages, which comes bundled with 
 
 1. **Clone the Github repository:**
 
-    Replace username with the GitHub username and repository with the name of the repository you want to clone.:
-
     ```sh
-    git clone https://github.com/username/repository.git
+    git clone https://github.com/anishajain/reddit_webscrapper.git
     ```
 
 2. **Navigate to the Project Directory:**
