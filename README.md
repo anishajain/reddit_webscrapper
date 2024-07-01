@@ -22,12 +22,12 @@ You'll also need `pip` for installing Python packages, which comes bundled with 
 
 ### Setting Up a Virtual Environment
 
-1. **Unpack the Project Directory:**
+1. **Clone the Github repository:**
 
-    Download and unpack the project directory:
+    Replace username with the GitHub username and repository with the name of the repository you want to clone.:
 
     ```sh
-    reddit_webscraper.zip
+    git clone https://github.com/username/repository.git
     ```
 
 2. **Navigate to the Project Directory:**
