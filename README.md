@@ -74,7 +74,7 @@ You'll also need `pip` for installing Python packages, which comes bundled with 
 
 4. **Navigate to config.py in your reddit_webscraper local directory**
 
-5. **Fill in client / secret keys within the single quotes.**
+5. **Fill in client / secret keys wrapped in single quotes**
 
 
 
