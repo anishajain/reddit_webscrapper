@@ -13,6 +13,8 @@ def get_subreddit(input_value):
     try:
         if input_value.startswith("https://www.reddit.com/r/"):
             subreddit_name = input_value.split('/')[-2]
+        elif input_value.startswith("r/"):
+            subreddit_name = input_value.split('/')[-1]
         else:
             subreddit_name = input_value
         
