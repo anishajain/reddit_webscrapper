@@ -62,9 +62,20 @@ You'll also need `pip` for installing Python packages, which comes bundled with 
 
 ## Reddit API Credentials
 
-1. Navigate to https://www.reddit.com/prefs/apps/
-2. Create an app to establish client / secret keys
-3. Navigate to config.py in this folder, and fill in client / secret keys within the single quotes.
+1. **Navigate to https://www.reddit.com/prefs/apps/**
+
+2. **Create an app and fill out these fields:**
+- name: "python-scrapper"
+- select "script" radio button
+- description: "project to scrape subreddits"
+- redirect uri: http://localhost:8000
+ 
+3. **Save & establish client / secret keys**
+
+4. **Navigate to config.py in your reddit_webscraper local directory**
+
+5. **Fill in client / secret keys within the single quotes.**
+
 
 
 ## Usage
